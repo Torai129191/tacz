@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="taczhelper"
+version="${mod_version}"
+displayName="TaC2Z Helper"
+description='''TaC2Z用のマルチプレイ補助Mod'''
+
+[[dependencies.taczhelper]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.taczhelper]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
